@@ -1,9 +1,64 @@
+.top
+    background-color: rgba(238,238,238,1)
+    &__content
+        padding: 20px 40px
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__info
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__logo
+        margin-right: 10px
+    &__phone
+        margin-right: 40px
+        color: black
+        font-weight: bold
+        font-size: 18px
+        &-link
+            margin-right: 5px
+            color: black
+            font-weight: bold
+            font-size: 18px
+    &__button
+        padding: 15px 30px
+        border-radius: 30px
+        background-color: transparent
+        border: 1px solid #4243a0
+        color: black
+        font-weight: bold
+        font-size: 14px
+        cursor: pointer
+        transition: 0.5s
+        &:hover
+            background-color: #4243a0
+            color: #fff
 .menu
-    &-top
+    width: 100%
+    padding: 20px 0
+    background-color: rgba(59,59,143,1)
+    &__content
         display: flex
         justify-content: space-around
-        align-items: center
-        &__phone
-            display: flex
-            flex-direction: column
-                
+    &__list
+        display: flex
+        width: 100%
+        justify-content: space-around
+        &-link
+            color: #fff
+            font-size: 18px
+        &-item
+            position: relative
+            &-after
+                &::after
+                    content: ''
+                    width: 0
+                    height: 0
+                    border-style: solid
+                    border-width: 4px 3px 0 3px
+                    position: absolute
+                    top: 45%
+                    right: -10%
+                    // transform: translateY(-50%)
+                    border-color: #ffffff

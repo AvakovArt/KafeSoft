@@ -1,29 +1,124 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Автоматизация общепита</title>
-    <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-    <header class="header-menu">
-        <div class="menu-top">
-            <div class="menu-top__logo"><img src="" alt="Logo" class="menu-top__img"></div>
-            <div class="menu-top__phone">
-                <div class="menu-top__phone-logo"><img src="" alt="Logo" class="menu-top__phone-logo__img"></div>
-                <a class="menu-top__phone-num" href="tel:+ 9 999 999 99 99">+ 9 999 999 99 99 Ташкент</a>
-                <a class="menu-top__phone-num" href="tel:+ 9 999 999 99 99">+ 9 999 999 99 99 Ташкент</a>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header class="top">
+      <div class="container">
+        <div class="top__content">
+          <div class="top__logo">
+            <a href="#"><img src="" alt="Logo" class="top__img" /></a>
+          </div>
+          <div class="top__info">
+            <div class="top__logo">
+              <img src="" alt="Phone" class="top__logo-img" />
             </div>
-            <div class="menu-top__phone">
-                <div class="menu-top__phone-logo"><img src="" alt="Logo" class="menu-top__phone-logo__img"></div>
-                <a class="menu-top__phone-num" href="tel:+ 9 999 999 99 99">+ 9 999 999 99 99 Ташкент</a>
+            <div class="top__num">
+              <div class="top__phone">
+                <a class="top__phone-link" href="tel:+ 9 999 999 99 99"
+                  >+ 9 999 999 99 99</a
+                >Ташкент
+              </div>
+              <div class="top__phone">
+                <a class="top__phone-link" href="tel:+ 9 999 999 99 99"
+                  >+ 9 999 999 99 99</a
+                >Ташкент
+              </div>
             </div>
-                
-            <button class="menu-top__button">Связаться с нами</button>
+            <div class="top__logo">
+              <img src="" alt="Phone" class="top__logo-img" />
+            </div>
+            <div class="top__num">
+              <div class="top__phone">
+                <a class="top__phone-link" href="tel:+ 9 999 999 99 99"
+                  >+ 9 999 999 99 99</a
+                >Ташкент
+              </div>
+            </div>
+            <button class="top__button">Связаться с нами</button>
+          </div>
         </div>
+      </div>
+      <div class="menu">
+        <div class="container">
+          <div class="menu__content">
+            <ul class="menu__list">
+              <li class="menu__list-item menu__list-item-after">
+                <a href="#" class="menu__list-link">Автоматизация</a>
+                <!-- <ul class="menu__plus">
+                    <li class="menu__plus-item">
+                      <a href="#" class="menu__plus-link">Кафе</a>
+                    </li>
+                    <li class="menu__plus-item">
+                      <a href="#" class="menu__plus-link">Ресторан</a>
+                    </li>
+                    <li class="menu__plus-item">
+                      <a href="#" class="menu__plus-link">Ресторанные сети</a>
+                    </li>
+                    <li class="menu__plus-item">
+                      <a href="#" class="menu__plus-link">Пиццерия</a>
+                    </li>
+                    <li class="menu__plus-item">
+                      <a href="#" class="menu__plus-link">Бар/кофейни</a>
+                    </li>
+                    <li class="menu__plus-item">
+                      <a href="#" class="menu__plus-link">Доставка готовых блюд</a>
+                    </li>
+                    <li class="menu__plus-item">
+                      <a href="#" class="menu__plus-link">Столовая</a>
+                    </li>
+                    <li class="menu__plus-item">
+                      <a href="#" class="menu__plus-link"
+                        >Бильярд, баня, караоке, сауна</a
+                      >
+                    </li>
+                  </ul> -->
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Оборудование</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Тарифы</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Контакты</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Блог</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Партнеры</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </header>
+    <section class="order">
+      <div class="order__bg">
+        <img src="img/order-bg.jpg" alt="Image-bg" />
+      </div>
+      <div class="container">
+        <div class="order__content">
+          <h1 class="order__title">Автоматизация ресторанов, баров, кафе.</h1>
+          <h2 class="order__subtitle">Два месяца сопровождения бесплатно</h2>
+          <span class="order__text"
+            >kafesoft.uz работает, чтобы вы зарабатывали</span
+          >
+          <div class="order__input-group">
+            <input type="tel" class="order__input" placeholder="+9" />
+            <input type="text" class="order__input" placeholder="Город" />
+            <input type="text" class="order__input" placeholder="Имя" />
+            <button class="order__button">Отправить</button>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="js/main.js"></script>
-</body>
+  </body>
 </html>
