@@ -698,6 +698,142 @@
   border-radius: 50px;
 }
 
+.contacts__content {
+  margin-top: 50px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contacts__title {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 100px;
+}
+
+.contacts__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contacts__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contacts__city {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contacts__text {
+  font-size: 20px;
+  line-height: 1.55;
+}
+
+.contacts__number {
+  font-weight: bold;
+}
+
+.help {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.help__content {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.help__title {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.help__text {
+  font-size: 24px;
+}
+
+.help__link {
+  padding: 20px 0;
+  background-color: #4234a0;
+  color: #fff;
+  width: 20%;
+  text-align: center;
+  margin: auto;
+  border-radius: 50px;
+  margin-top: 50px;
+}
+
+.soc {
+  background-color: #4243a0;
+  padding: 10px 0;
+}
+
+.soc__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.soc__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+.soc__link {
+  color: #fff;
+}
+
+.soc__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.soc__icon {
+  margin-right: 10px;
+  color: #fff;
+}
+
+.soc__icon:last-child {
+  margin-right: 0;
+}
+
 body {
   padding: 0;
   margin: 0;
